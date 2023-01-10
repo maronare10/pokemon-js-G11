@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,29 @@
   <link rel="stylesheet" href="./styles.css">
   <title>POKEMON</title>
 </head>
+
 <body>
-  <h1 class="header">Pokemon List</h1>
 
-  <div id="pokemonList" class="pokemons-list"></div>
+  <div class="pokemons-app">
+    <div class="pokemons-wrapper">
 
+      <h1>Document List</h1>
+      <div id="pokemonsList" class="pokemons-list"></div>
+
+      <div class="pokemons-pagination">
+        <button id="prevPage">Prev</button>
+        <span id="currentPage">1</span>
+        <button id="nextPage">Next</button>
+      </div>
+
+    </div>
+    <div class="pokemons-wrapper">
+      Edit pokemons
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   <script src="./app.js"></script>
 </body>
+
 </html>
