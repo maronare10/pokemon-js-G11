@@ -33,3 +33,42 @@ body {
   min-width: 12rem;
   text-transform: capitalize;
 }
+
+.is-favorite {
+  color: #FFDE00;
+  fill: #FFDE00;
+}
+
+.pokemon-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #dea;
+  padding: 1rem;
+  text-align: center;
+  border: 3px solid rgb(143, 168, 68);
+  border-radius: 6px;
+  margin-top: 43px;
+}
+
+.is-hidden {
+  display: none; 
+}
+
+.pokemons-pagination {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.pokemons-pagination span {
+  background: #fff;
+  vertical-align: middle;
+  line-height: 2rem;
+  padding: 0 .5rem;
+}
+
+.pokemons-item__buttons {
+  display: flex;
+  gap: .2rem;
