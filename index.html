@@ -14,7 +14,8 @@
   <div class="pokemons-app">
     <div class="pokemons-wrapper">
 
-      <h1>Document List</h1>
+      <h1>Pokemon List</h1>
+      <strong id="numberPokemons">Favorites: 0</strong> 
       <div id="pokemonsList" class="pokemons-list"></div>
 
       <div class="pokemons-pagination">
@@ -25,7 +26,15 @@
 
     </div>
     <div class="pokemons-wrapper">
-      Edit pokemons
+      <form id="pokemonForm" class="pokemon-form">
+        <h3>Pokemon <small>#</small></h3>
+          <input id="id" type="hidden" >
+          <input id="name" type="text" placeholder="Pokemon name" required>
+          <input id="image" type="text" placeholder="Pokemon image">
+          <button>Guardar</button>
+          <button type="reset">Limpiar</button>
+      </form>
+      
     </div>
 
   </div>
