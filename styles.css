@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.title-list {
+  text-align: center;
+}
+
 .pokemons-app {
   display: flex;
   gap: 1rem;
@@ -48,7 +52,7 @@ body {
   text-align: center;
   border: 3px solid rgb(143, 168, 68);
   border-radius: 6px;
-  margin-top: 43px;
+  margin-top: 130px;
 }
 
 .is-hidden {
